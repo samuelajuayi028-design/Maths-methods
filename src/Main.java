@@ -5,5 +5,6 @@ public class Main {
  System.out.println(Math.max(5, 10));
  System.out.println(Math.min(5,10));
  System.out.println(Math.sqrt(64));
+        System.out.println("This is maths method class");
     }
 }
