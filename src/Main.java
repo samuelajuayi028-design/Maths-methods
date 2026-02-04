@@ -67,7 +67,78 @@ public class Main {
                         } else {
                             System.out.println("Good evening.");
 
+                            int weather = 2; // 1 = raining, 2 = sunny, 3 = cloudy
 
+                            if (weather == 1) {
+                                System.out.println("Bring an umbrella.");
+                            } else if (weather == 2) {
+                                System.out.println("Wear sunglasses.");
+                            } else {
+                                System.out.println("Just go outside normally.");
+
+
+                                int Time = 16;
+
+                                if (time < 12) {
+                                    System.out.println("Good morning.");
+                                } else if (time < 18) {
+                                    System.out.println("Good day.");
+                                } else {
+                                    System.out.println("Good evening.");
+
+
+                                    int TIME = 22;
+
+                                    if (time < 12) {
+                                        System.out.println("Good morning.");
+                                    } else if (time < 18) {
+                                        System.out.println("Good day.");
+                                    } else {
+                                        System.out.println("Good evening.");
+
+                                        int TIme = 20;
+                                        String result;
+                                        result = (time < 18) ? "Good day." : "Good evening.";
+                                        System.out.println(result);
+
+                                        int TIMe = 22;
+                                        String message = (time < 12) ? "Good morning."
+                                                : (time < 18) ? "Good afternoon."
+                                                : "Good evening.";
+                                        System.out.println(message);
+
+
+                                        int W = 15;
+                                        int T = 25;
+
+                                        if (x > 10) {
+                                            System.out.println("x is greater than 10");
+
+                                            // Nested if
+                                            if (y > 20) {
+                                                System.out.println("y is also greater than 20");
+
+                                                int age = 20;
+                                                boolean isCitizen = true;
+
+                                                if (age >= 18) {
+                                                    System.out.println("Old enough to vote.");
+
+                                                    if (isCitizen) {
+                                                        System.out.println("And you are a citizen, so you can vote!");
+                                                    } else {
+                                                        System.out.println("But you must be a citizen to vote.");
+                                                    }
+                                                } else {
+                                                    System.out.println("Not old enough to vote.");
+
+
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                 }
